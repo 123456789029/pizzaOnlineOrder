@@ -1,0 +1,67 @@
+.container{
+    width: 90%;
+    margin: 1px auto;
+}
+
+.navbar{
+    height: 100px;
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    background-color: #d1411e;
+}
+.navbar .contactBox{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.logo img{
+    margin: 10px 10px;
+}
+.num{
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.links{
+    width: 70%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardCounter{
+    position: relative;
+}
+.counter{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #fff;
+    color: #d1411e;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: bold;
+}
+.slide-btn{
+    background-color: #fff !important;
+    color: #d1411e !important;
+    margin: -200px 0 0 130px !important;
+}
+.slide-btn:hover{
+    box-shadow: #df7f65 0 0 1px 4px !important;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    width: 100px !important;
+    height: 100px !important;
+}
